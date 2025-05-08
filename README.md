@@ -6,6 +6,7 @@
   <summary>Click to expand</summary>
   - 🌦️ Project Description <br>
   - ⚙️ Technologies Used <br>
+  - 🌦️ Demo <br>
   - 🔨 Installation <br>
   - 🚀 Usage <br>
   - 📝 Credits <br>
@@ -43,6 +44,16 @@ Weather data is retrieved from:
 
 ---
 
+## 🌦️ Demo
+
+<a href="https://i.imghippo.com/files/V8997Nvs.png" target="_blank">🔗 Screenshot Preview</a>
+
+### 🎥 Preview
+
+<a href="https://weather-app-makedonkatochevska.netlify.app/" target="_blank">Live Demo</a>
+
+---
+
 ## Installation 🔨
 
 To run these exercises locally, follow these steps:
@@ -51,7 +62,7 @@ To run these exercises locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://git.brainster.co/Makedonka.Tochevska-FE21/brainsterchallenges_makedonkatochevskafe21.git
+   git clone https://github.com/makedonkatochevska/weather_app.git
    ```
 2. Open the index.html file in your browser.
 
@@ -61,29 +72,26 @@ To run these exercises locally, follow these steps:
 
 Once you have the project set up locally, follow these steps to interact with the exercises:
 
-1. **Exercise 1: Array Transformation**:
+1. Open the application in your browser.
 
-   - Open the `exercise1.html` file in your browser.
-   - The array of numbers will be processed based on the transformation rules:
-     - Numbers less than 10 will be multiplied by 2.
-     - Numbers 10 or greater will be multiplied by 4.
-   - The transformed array will be displayed in the output.
+2. In the input fields, enter:
 
-2. **Exercise 2: Password Checker**:
+   - A **city name** (e.g., "Skopje")
+   - The **number of days** for the forecast (e.g., "5")
 
-   - Open the `exercise2.html` file in your browser.
-   - Enter a password when prompted.
-   - The system will validate the password based on the following criteria:
-     - It must be at least 8 characters long.
-     - It must contain at least one number and one uppercase letter.
-   - If the password is valid, a success message will appear. If it's invalid, an error message will be displayed.
+3. Click the **Search City** button.
 
-3. **Exercise 3: Dynamic Table Generator**:
-   - Open the `exercise3.html` file in your browser.
-   - Enter the number of rows and columns for the table.
-   - The program will generate a dynamic table with the specified number of rows and columns:
-     - The header cells will display "Header" followed by the column number.
-     - The body cells will display "Row" followed by the row number and "Col" followed by the column number.
+4. The app will fetch and display:
+
+   - A weather forecast for the specified number of days
+   - Each day will include:
+     - Temperature
+     - Description
+     - Weather icon
+
+5. The weather icons are retrieved from OpenWeatherMap's image API.
+
+6. If invalid input is entered (e.g., empty city or invalid number), an error message will be shown.
 
 ---
 
