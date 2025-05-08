@@ -48,10 +48,6 @@ Weather data is retrieved from:
 
 <a href="https://i.imghippo.com/files/V8997Nvs.png" target="_blank">🔗 Screenshot Preview</a>
 
-### 🎥 Preview
-
-<a href="https://weather-app-makedonkatochevska.netlify.app/" target="_blank">Live Demo</a>
-
 ---
 
 ## Installation 🔨
